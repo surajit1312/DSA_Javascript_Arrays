@@ -4,12 +4,12 @@ consoleUtils.logTitle("Leetcode 1. Two Sum: Arrays", "◉", "green");
 consoleUtils.logExeBlock(
   `Input: nums = [3, 2, 5, 7, 11, 15]; target = 9`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/two-sum/`,
   true,
-  "magenta"
+  "magenta",
 );
 
 /**
@@ -42,7 +42,7 @@ const output = twoSum(nums, target);
 consoleUtils.logConsole(
   `Indices of numbers with two sum ${target}: ${output}`,
   false,
-  "magenta"
+  "magenta",
 );
 
 consoleUtils.logExeBlock("", true, "magenta");
